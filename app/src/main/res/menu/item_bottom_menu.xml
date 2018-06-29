@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_network_disk"
+        android:icon="@mipmap/bottom_net_work"
+        android:title="网盘"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/item_share"
+        android:icon="@mipmap/bottom_share"
+        android:title="分享"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/item_life"
+        android:icon="@mipmap/bottom_life"
+        android:title="生活记"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/item_more"
+        android:icon="@mipmap/bottom_more"
+        android:title="更多"
+        app:showAsAction="withText"
+        android:enabled="false"/>
+
+</menu>
